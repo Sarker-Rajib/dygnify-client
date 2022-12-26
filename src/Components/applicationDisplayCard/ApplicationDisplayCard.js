@@ -22,7 +22,10 @@ const ApplicationDisplayCard = ({ application, index }) => {
   } = application;
 
   return (
-    <div className="p-3 shadow-lg rounded mb-3 mb-lg-5">
+    <div
+      className="p-3 rounded mb-3 mb-lg-5"
+      style={{ boxShadow: "0px 0px 15px 5px rgba(15, 200, 255, 0.5)" }}
+    >
       <p className="m-0">Application : {index}</p>
       <h6>
         Client Name: <span className="fs-4">{name}</span>
