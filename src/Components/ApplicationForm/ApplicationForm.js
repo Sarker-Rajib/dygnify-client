@@ -49,7 +49,7 @@ const ApplicationForm = () => {
       installment,
     };
 
-    fetch("http://localhost:8000/application", {
+    fetch("https://dignify-seven.vercel.app/application", {
       method: "POST",
       headers: {
         "content-type": "application/json",

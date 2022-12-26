@@ -5,7 +5,7 @@ const AllApplications = () => {
   const [applications, setApplications] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/applications`)
+    fetch(`https://dignify-seven.vercel.app/applications`)
       .then((res) => res.json())
       .then((data) => {
         setApplications(data);
