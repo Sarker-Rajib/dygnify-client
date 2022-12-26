@@ -12,8 +12,6 @@ const AllApplications = () => {
       });
   }, []);
 
-  console.log(applications);
-
   return (
     <div className="container py-3">
       <h3 className="pb-3">All Applications</h3>
